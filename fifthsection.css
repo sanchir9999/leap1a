@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Work {
+  margin-top: 64px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 24px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.cab {
+  margin: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+.Ubcab {
+  width: 343px;
+  height: 516px;
+  margin: auto;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.Tech {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.React {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 79px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nextjs {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 87px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Typescrips {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 112px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nestjs {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 87px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PostgreSQL {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 120px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tailwindcss {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 119px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Figma {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 81px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cypress {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 81px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Storybook {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 110px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Git {
+  background-color: #e5e7eb;
+  border-radius: 50px;
+  width: 60px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Act {
+  margin-top: 24px;
+  width: 24px;
+  height: 24px;
+}
+.Lorem {
+  width: 279px;
+  margin-top: 24px;
+}
+.Work1 {
+  margin-top: 64px;
+}
+.dashdondog {
+  margin: 32px 32px 32px 32px;
+}
+.Mentor {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.border {
+  margin-top: 64px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 24px;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.zuun {
+  margin-top: 24px;
+}

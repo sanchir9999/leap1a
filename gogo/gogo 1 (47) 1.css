@@ -1,0 +1,672 @@
+* {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  gap: 8px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.align-items img {
+  width: 50px;
+  height: 100px;
+}
+
+.navbar {
+  width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.news {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: 20px;
+}
+
+.gogo {
+  width: 1180px;
+  margin: auto;
+}
+
+.navbar img {
+  height: 39px;
+  width: 120px;
+}
+
+.news i {
+  color: black;
+  size: 30px;
+}
+
+.news2 {
+  width: 300px;
+  height: 89px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  font-size: small;
+  position: relative;
+  right: 56px;
+}
+
+.parag {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  width: 542px;
+  height: 385px;
+  padding-left: 40px;
+}
+
+.parag-icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  gap: 30px;
+  background-color: #f0efef;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-right: auto;
+  padding: 5px 10px;
+}
+
+.boss {
+  width: 66px;
+  height: 30px;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  border-radius: 20px;
+  background: linear-gradient(129deg, #c40097, #d6710b);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.boss:hover {
+  width: 80px;
+}
+
+.news div {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.medee {
+  display: flex;
+  flex-grow: 1 1 1 1;
+}
+
+.mongol {
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  height: 385px;
+  width: 542px;
+}
+
+.mongol img {
+  height: 385px;
+  width: 542px;
+  border-radius: 10px;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.mongol:hover img {
+  transform: scale(1.1);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.mongol:hover .overlay {
+  opacity: 0.5;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay span {
+  color: #ffffff;
+}
+
+.parag h3 {
+  font-size: 26px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0px 20px;
+}
+
+.parag p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.attention {
+  width: 1100px;
+  height: 280px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-top: 30px;
+  margin: 20px;
+}
+
+.Japan {
+  width: 263px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.Japan img {
+  width: 100%;
+  height: 175px;
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.japanback {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Japan:hover img {
+  transform: scale(1.1);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.hello {
+  position: absolute;
+  display: flex;
+  color: black;
+  top: 240px;
+  left: 0px;
+  gap: 10px;
+}
+
+.Japan h3 {
+  top: 100px;
+  position: absolute;
+  left: 0%;
+  top: 181px;
+}
+
+.story {
+  width: 1100px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 3px;
+}
+
+.story1 {
+  width: 80px;
+  height: 25px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.story :nth-child(2) {
+  background-color: #00b0f4;
+  color: #ffffff;
+}
+
+.store img {
+  border-radius: 10px;
+}
+
+.store {
+  width: 170px;
+  height: 235px;
+
+  flex-direction: column;
+}
+
+.storedad {
+  display: flex;
+  gap: 20px;
+}
+
+.store img {
+  width: 170px;
+  height: 235px;
+  object-fit: cover;
+}
+
+.store div h2 {
+  background-color: #00b0f4;
+  box-sizing: border-box;
+  border-radius: 100%;
+  position: relative;
+  bottom: 230px;
+  left: 10px;
+}
+
+.store :nth-child(2) {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  bottom: 70px;
+  color: #ffffff;
+  display: flex;
+  left: 400px;
+  flex-direction: row;
+  position: relative;
+  bottom: 62px;
+  right: 600px;
+  font-size: 12px;
+  width: 15px;
+  left: 23px;
+}
+
+.icon i {
+  position: relative;
+  bottom: 60px;
+  left: 8px;
+  display: flex;
+  height: 5px;
+  font-size: 12px;
+}
+
+.text {
+  width: fit-content;
+  height: 45px;
+  position: relative;
+  bottom: 100px;
+  color: #ffffff;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  margin-left: 10px;
+  font-size: 13px;
+  bottom: 130px;
+}
+
+.store:hover .text {
+  cursor: pointer;
+  height: 90px;
+  bottom: 150px;
+}
+
+.Green {
+  width: 1180px;
+  height: auto;
+}
+
+.Box {
+  flex-direction: row;
+  display: flex;
+  height: 20px;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.Card {
+  display: flex;
+  gap: 10px;
+}
+
+.Card1 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #407ce8;
+  margin-top: 20px;
+}
+
+.Card2 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #efefef;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Card3 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #efefef;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Card4 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #efefef;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Card5 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #efefef;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Card6 {
+  border: white 1px solid;
+  border-radius: 20px;
+  width: 104px;
+  height: 8px;
+  background-color: #efefef;
+  margin-top: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.Card7 {
+  border: white 1px solid;
+  border-radius: 5px;
+  background-color: #efefef;
+  margin-top: 20px;
+}
+
+.Card7 h6 {
+  text-align: center;
+  height: auto;
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendar {
+  display: flex;
+  gap: 45px;
+  justify-content: start;
+  margin-left: 12px;
+  position: relative;
+  bottom: 19px;
+}
+
+.bon {
+  width: 1180px;
+  margin: auto;
+  height: 10000px;
+}
+
+.Card2:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+}
+
+.Card3:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+}
+
+.Card4:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+}
+
+.Card5:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+}
+
+.Card6:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+}
+
+.Card7:hover {
+  background-color: #407ce8;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.tree {
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos {
+  display: flex;
+  flex-direction: flex-start;
+  gap: 30px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.miniphotos {
+  width: 210px;
+  height: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.miniphotos img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+.miniphotospara {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 10px;
+}
+.vip {
+  display: flex;
+  width: 1180px;
+  margin: auto;
+  gap: 120px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 100%;
+  overflow: hidden;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.cardimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.miniicons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+.cardpara {
+  width: 290px;
+}
+
+.cardicon {
+  margin-top: 10px;
+  font-size: 12px;
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+}
+.Bottom {
+  display: flex;
+}
+.leftphoto {
+  display: flex;
+  flex-direction: column;
+  width: 690px;
+  gap: 20px;
+
+  height: fit-content;
+}
+.leftphoto img {
+  width: 210px;
+}
+.medeeniicard {
+  width: 690px;
+  height: 245px;
+}
+.medeeniicard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.miniphotospara h3 {
+  font-size: 19px;
+}
+.miniphotospara {
+  font-size: 14px;
+}
+.photos:hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.rightphoto {
+  border: 2px solid red;
+  height: 100%;
+}
+.photos:hover .cover {
+  opacity: 0.5;
+}
+.cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card :hover img {
+  cursor: pointer;
+  transform: scale(1.1);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card:hover .cover {
+  opacity: 0.5;
+}
+
+.miniphotos :hover .cover {
+  background-color: black;
+}
+.trend {
+  width: 340px;
+
+  height: 1000px;
+}
+.trendname {
+  display: flex;
+  width: 340px;
+  height: 88.33px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+  gap: 10px;
+}
+.trendmedee {
+  width: 229px;
+  height: 113px;
+}
+.NUMBER h1 {
+  width: 25px;
+  height: 113px;
+  color: red;
+  font-size: 46px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.FLEX {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.Tsaash {
+  width: 100%;
+  height: 100%;
+}
+.tsaash {
+  width: 690px;
+  height: 65px;
+  border: 2px solid rgb(221, 221, 221);
+}
+.tsaash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  font-family: Arial, Helvetica, sans-serif, bold;
+  background-color: #f8f8f8;
+}
+
+.grid-container {
+  display: grid;
+
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 0px 0px 50px 50px;
+}
+.grid-item {
+  border: 2px solid red;
+}

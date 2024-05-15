@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.last {
+  margin: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.PARA {
+  text-align: center;
+}

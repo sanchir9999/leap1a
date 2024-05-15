@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.flex1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

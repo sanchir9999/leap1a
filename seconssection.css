@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tuhai {
+  width: 105px;
+  height: 28px;
+  background-color: #e5e7eb;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+.Button {
+  margin-bottom: 10px;
+}
+
+.img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  position: relative;
+}
+
+.realimg img {
+  position: absolute;
+  left: 45px;
+  bottom: 15px;
+  width: 280px;
+  height: 360px;
+}
+
+.question {
+  margin-top: 60px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.para1 {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.para2 {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.para3 {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.para4 {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.ul {
+  display: flex;
+}
+
+.lastpara {
+  margin-bottom: 64px;
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .second-section {
+    display: flex;
+    border: 2px solid red;
+  }
+}
