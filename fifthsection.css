@@ -3,20 +3,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .Work {
-  margin-top: 64px;
   background-color: white;
   border-radius: 10px;
   margin-top: 24px;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
     0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
-}
-.cab {
   margin: auto;
-  margin-left: 32px;
-  margin-right: 32px;
-  margin-bottom: 32px;
-  margin-top: 32px;
 }
 
 .Ubcab {
@@ -25,6 +18,10 @@
   margin: auto;
   margin-left: 32px;
   margin-right: 32px;
+}
+.cabimg img {
+  height: 100%;
+  width: 100%;
 }
 .Tech {
   margin-top: 24px;
@@ -157,4 +154,26 @@
 }
 .zuun {
   margin-top: 24px;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  .Work {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cab {
+    height: 480px;
+    width: 576px;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-right: 48px;
+  }
+  .Ubcab {
+    margin: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
 }
